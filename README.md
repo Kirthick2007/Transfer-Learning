@@ -9,14 +9,16 @@ Include the problem statement and Dataset
 
 ## DESIGN STEPS
 ### STEP 1:
+Import required libraries.Then dataset is loaded and define the training and testing dataset.
 </br>
 
 ### STEP 2:
+initialize the model,loss function,optimizer. CrossEntropyLoss for multi-class classification and Adam optimizer for efficient training.
 </br>
 
 ### STEP 3:
-
-Write your own steps
+Train the model with training dataset.
+Evaluate the model with testing dataset.
 <br/>
 
 ## PROGRAM
@@ -80,27 +82,21 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-Include your plot here
-</br>
-</br>
-</br>
+<img width="933" height="644" alt="image" src="https://github.com/user-attachments/assets/0ce839f0-a807-4266-a8b1-79e0196b2fb9" />
+
 
 ### Confusion Matrix
-Include confusion matrix here
-</br>
-</br>
-</br>
+<img width="713" height="566" alt="image" src="https://github.com/user-attachments/assets/2477e0c6-b717-403e-911a-069a9d897e72" />
+
 
 ### Classification Report
-Include Classification Report here
-</br>
-</br>
-</br>
+<img width="550" height="243" alt="image" src="https://github.com/user-attachments/assets/72dc19c7-82ef-409f-a8d3-6b49eb8a7310" />
+
 
 ### New Sample Prediction
-</br>
-</br>
-</br>
+<img width="694" height="571" alt="image" src="https://github.com/user-attachments/assets/b709d542-ff43-4f90-8a9c-a50ecfb7a395" />
+<img width="574" height="576" alt="image" src="https://github.com/user-attachments/assets/2646f48a-d93e-4869-b9dd-ae34c232084d" />
+
 
 ## RESULT
 </br>
